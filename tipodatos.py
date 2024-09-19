@@ -12,21 +12,21 @@ class Datos:
         print(autos)
         for aut in autos:
             print(aut)
+    def mi_tupla(self):
         frutas = ("Banana","Fresa","Mango")
-        print("tuplas: ")
         print(frutas)
         for fru in frutas:
             print(fru)
+    def mi_conjunto(self):
         animales = {"Caballo","Gato","Perro"}
-        print("conjunto: ")
         print(animales)
         for ani in animales:
             print(ani)
+    def mi_diccionario(self):
         dicc = {
         "Nombre": "Valentin",
         "Apellido": "Loya",
         "Edad": 17 }
-        print("Diccionario: ")
         print(dicc)
         for x, y in dicc.items():
             print(x, y)
@@ -35,5 +35,16 @@ info=Datos(1.81,84.5)
 
 # utilizando el obj. --> info
 info.mostrar_datos()
+
 print("Lista de Autos Deportivos Valentin Foya")
 info.mi_lista()
+
+print("tupla de Valentin Foya")
+info.mi_tupla()
+
+print("conjunto de Valentin Foya")
+info.mi_conjunto()
+
+print("Diccionario de Valentin Foya")
+info.mi_diccionario()
+
